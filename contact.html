@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MERLIN FASHION CLUB</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Beth+Ellen|Nova+Cut&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style_index.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/categories.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #eecbed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+  height: 1o0vh;
+}
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h2 {
+  text-align: center;
+  color: #e65b00;
+  margin-bottom: 20px;
+}
+
+form input, textarea {
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+  border-radius: 10px;
+  resize: none;
+}
+
+form button {
+  background: white;
+  color: #e65b00;
+  border: 1px solid #e65b00;
+  padding: 15px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  margin: 20px auto 0;
+  border-radius: 30px;
+  transition: all .5s ease-in;
+}
+
+form button:hover {
+  border: 1px solid #e65b00;
+  background: #e65b00;
+  color: white;
+}
+</style>
+<body> 
+    <!-- navbar -->
+      <nav>
+        <div class="logo">
+          <h3><a href="merlin.html" class="logo-name">Merlin Fashion</a></h3>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="man.html">man</a></li>
+          <li><a href="woman.html">woman</a></li>
+          <li><a href="contact.html">ContactUs</a></li>
+          <li><a href="login.html" id="login">Login</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    <!-- navbar -->
+    <center>
+    
+      
+        <div class="container">
+          <form>
+            <h2> GET IN TOUCH </h2>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+            <input type="email" id="email" placeholder="Enter Your Email" required>
+            <input type="phone" id="phone" placeholder="Enter Your Phone Number" required>
+            <input type="text" id="coupon" placeholder="Enter Coupen Code" required>
+      
+            <textarea id="message" rows="4" placeholder="Write Something"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+        <!-- Contact form using HTML and CSS by raju_webdev -->
+     
+    </center>
+      
+  
+  <script type="text/javascript" src="js/nav.js"></script>
+  </body>
+</html>
